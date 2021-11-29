@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap%27");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -9,13 +9,13 @@ body {
   margin: 0;
   width: 100%;
   font-family: "Montserrat", sans-serif;
-  background: #373735;
+  background: #2d2d2d;
 }
 
 .hit_digital {
   max-width: 900px;
   margin: 0 auto;
-  margin-top: 50px;
+  margin-top: 100px;
 }
 
 .logo {
@@ -23,11 +23,16 @@ body {
   justify-content: center;
 }
 
+.logo img {
+  width: 100%;
+  max-width: 160px;
+}
+
 .center_btns {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 60px 0 45px 0;
+  margin: 0px 0 45px 0;
 }
 .center_btns button {
   width: 200px;
@@ -74,7 +79,7 @@ body {
   width: 116px;
   left: 50%;
   position: absolute;
-  border: solid 2px #707070;
+  border: 1px solid #707070;
 }
 
 .introduction > span:before {
@@ -131,7 +136,7 @@ body {
   font-weight: 300;
   background: #ea916b;
   border-radius: 10px;
-  margin: 29px auto 0 auto;
+  margin: 40px auto 0 auto;
 }
 
 .sub_intro {
@@ -145,7 +150,7 @@ body {
   line-height: 24px;
   text-align: justify;
   font-family: "Montserrat", sans-serif;
-  font-weight: 300;
+  font-weight: 100;
 }
 
 .intro_texto p:first-child {
@@ -230,7 +235,7 @@ body {
 
 @media (min-width: 320px) {
   .center_btns {
-    margin: 60px 20px 42px 21px;
+    margin: 0px 20px 42px 21px;
   }
 }
 
